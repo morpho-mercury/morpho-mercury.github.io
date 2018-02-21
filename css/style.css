@@ -464,7 +464,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-transform: uppercase;
   text-align: center;
   font-weight: 700;
-  margin-bottom: 5px;
+  margin-bottom: 60px;
 }
 
 .section-header .section-description {
@@ -482,7 +482,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about .about-container .background {
   min-height: 300px;
-  background: url(../img/about-img.jpg) center top no-repeat;
+  background: url(../img/man.jpg) center top no-repeat;
   margin-bottom: 10px;
 }
 
@@ -580,7 +580,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 50px;
   text-align: center;
   border: 1px solid #e6e6e6;
-  height: 200px;
+  height: 350px;
   position: relative;
   background: #fafafa;
 }
