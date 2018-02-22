@@ -246,6 +246,8 @@ Język to nie tylko słownictwo, ale kultura i ludzie, którzy ją tworzą, ze m
     <!--==========================
       Portfolio Section
     ============================-->
+
+
     <section id="portfolio">
       <div class="container wow fadeInUp">
         <div class="section-header">
@@ -256,137 +258,352 @@ Język to nie tylko słownictwo, ale kultura i ludzie, którzy ją tworzą, ze m
 
           <div class="col-lg-12">
             <ul id="portfolio-flters">
-              <li data-filter=".filter-app, .filter-card, .filter-logo, .filter-web" class="filter-active">Wszystko</li>
-              <li data-filter=".filter-app">Wykształcenie</li>
-              <li data-filter=".filter-card">Miłości</li>
-              <li data-filter=".filter-logo">Doświadczenie</li>
-              <li data-filter=".filter-web">English</li>
-              <li data-filter=".filter-web">Francais</li>
-              <li data-filter=".filter-web">Hrvatski</li>
+              <li data-filter=".filter-edu, .filter-love, .filter-exp, .filter-en, .filter-fr, .filter-hr" class="filter-active">Wszystko</li>
+              <li data-filter=".filter-edu">Wykształcenie</li>
+              <li data-filter=".filter-love">Miłości</li>
+              <li data-filter=".filter-exp">Doświadczenie</li>
+              <li data-filter=".filter-en">English</li>
+              <li data-filter=".filter-fr">Francais</li>
+              <li data-filter=".filter-hr">Hrvatski</li>
             </ul>
           </div>
         </div>
 
+      
         <div class="row" id="portfolio-wrapper">
-          <div class="col-lg-3 col-md-6 portfolio-item filter-app">
-            <a href="">
-              <img src="img/portfolio/app1.jpg" alt="">
-              <div class="details">
-                <h4>App 1</h4>
-                <span>Alored dono par</span>
+
+          <!-- 1 - Kulturoznawca  -->
+          <div id="kulturoznawcaModal" class="modal fade" role="dialog">
+            <div class="vertical-alignment-helper">
+              <div class="modal-dialog modal-dialog-centered vertical-align-center">
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <img src="img/portfolio/tv.png" alt="">
+                  </div>
+                  <div class="modal-body">
+                    <p>Kulturoznawca z wykształcenia, straciłam głowę dla amerykańskiej telewizji 
+                       i ogólnie współczesnych manewrów, które serwują nam twórcy zza oceanu.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Powrót</button>
+                  </div>
+                </div>      
               </div>
-            </a>
+            </div>
+          </div>
+      
+          <div class="col-lg-3 col-md-6 portfolio-item filter-edu filter-en">
+              <a data-toggle="modal" data-backdrop="true" data-target="#kulturoznawcaModal">
+                <img src="img/portfolio/tv.png" alt="">
+                <div class="details">
+                    <h4>Kulturoznawca</h4>
+                </div>    
+              </a>
           </div>
 
-          <div class="col-lg-3 col-md-6 portfolio-item filter-web">
-            <a href="">
-              <img src="img/portfolio/web2.jpg" alt="">
-              <div class="details">
-                <h4>Web 2</h4>
-                <span>Alored dono par</span>
+
+          <!-- 2 - Filolozka  -->
+          <div id="filolozkaModal" class="modal fade" role="dialog">
+            <div class="vertical-alignment-helper">
+              <div class="modal-dialog modal-dialog-centered vertical-align-center">
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <img src="img/portfolio/manuscript.jpg" alt="">
+                  </div>
+                  <div class="modal-body">
+                    <p>Z wykształcenia również Filolożka chorwacka i serbska. Na Bałkanach została część mojego serca. Co kilka miesięcy jadę by jej szukać i zabrać ją stamtąd - bezskutecznie…
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Powrót</button>
+                  </div>
+                </div>      
               </div>
-            </a>
+            </div>
+          </div>
+      
+          <div class="col-lg-3 col-md-6 portfolio-item filter-edu filter-hr">
+              <a data-toggle="modal" data-backdrop="true" data-target="#filolozkaModal">
+                <img src="img/portfolio/manuscript.jpg" alt="">
+                <div class="details">
+                    <h4>Filolożka</h4>
+                </div>    
+              </a>
           </div>
 
-          <div class="col-lg-3 col-md-6 portfolio-item filter-app">
-            <a href="">
-              <img src="img/portfolio/app3.jpg" alt="">
-              <div class="details">
-                <h4>App 3</h4>
-                <span>Alored dono par</span>
+          <!-- 3 - Francja  -->
+          <div id="francjaModal" class="modal fade" role="dialog">
+            <div class="vertical-alignment-helper">
+              <div class="modal-dialog modal-dialog-centered vertical-align-center">
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <img src="img/portfolio/paris.jpg" alt="">
+                  </div>
+                  <div class="modal-body">
+                    <p>Moim drugim domem jest Francja, nie potrafię logicznie wytłumaczyć mojego przywiązania i nieograniczonej miłości dla tego kraju.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Powrót</button>
+                  </div>
+                </div>      
               </div>
-            </a>
+            </div>
+          </div>
+      
+          <div class="col-lg-3 col-md-6 portfolio-item filter-love filter-fr">
+              <a data-toggle="modal" data-backdrop="true" data-target="#francjaModal">
+                <img src="img/portfolio/paris.jpg" alt="">
+                <div class="details">
+                    <h4>Francja</h4>
+                </div>    
+              </a>
           </div>
 
-          <div class="col-lg-3 col-md-6 portfolio-item filter-card">
-            <a href="">
-              <img src="img/portfolio/card1.jpg" alt="">
-              <div class="details">
-                <h4>Card 1</h4>
-                <span>Alored dono par</span>
+          <!-- 4 - Nauka  -->
+          <div id="naukaModal" class="modal fade" role="dialog">
+            <div class="vertical-alignment-helper">
+              <div class="modal-dialog modal-dialog-centered vertical-align-center">
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <img src="img/portfolio/narrative.jpg" alt="">
+                  </div>
+                  <div class="modal-body">
+                    <p>Uwielbiam uczyć i przekazywać wiedzę, ale również uczyć się od moich uczniów. Nauka dla mnie to synonim przygody.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Powrót</button>
+                  </div>
+                </div>      
               </div>
-            </a>
+            </div>
+          </div>
+      
+          <div class="col-lg-3 col-md-6 portfolio-item filter-love">
+              <a data-toggle="modal" data-backdrop="true" data-target="#naukaModal">
+                <img src="img/portfolio/narrative.jpg" alt="">
+                <div class="details">
+                    <h4>Nauka</h4>
+                </div>    
+              </a>
           </div>
 
-          <div class="col-lg-3 col-md-6 portfolio-item filter-card">
-            <a href="">
-              <img src="img/portfolio/card2.jpg" alt="">
-              <div class="details">
-                <h4>Card 2</h4>
-                <span>Alored dono par</span>
+          <!-- 5 - Taniec  -->
+          <div id="taniecModal" class="modal fade" role="dialog">
+            <div class="vertical-alignment-helper">
+              <div class="modal-dialog modal-dialog-centered vertical-align-center">
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <img src="img/portfolio/dance.jpg" alt="">
+                  </div>
+                  <div class="modal-body">
+                    <p>Stepuję, kocham taniec, w czasie studiów prowadziłam zespół taneczny dla dzieci. Dziś one studiują w co wciąż trudno mi uwierzyć. Kocham musicale. W to trudno jest uwierzyć moim znajomym.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Powrót</button>
+                  </div>
+                </div>      
               </div>
-            </a>
+            </div>
+          </div>
+      
+          <div class="col-lg-3 col-md-6 portfolio-item filter-love filter-en">
+              <a data-toggle="modal" data-backdrop="true" data-target="#taniecModal">
+                <img src="img/portfolio/dance.jpg" alt="">
+                <div class="details">
+                    <h4>Taniec</h4>
+                </div>    
+              </a>
+          </div>
+  
+          <!-- 6 - Podroze  -->
+          <div id="podrozeModal" class="modal fade" role="dialog">
+            <div class="vertical-alignment-helper">
+              <div class="modal-dialog modal-dialog-centered vertical-align-center">
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <img src="img/portfolio/camper.jpg" alt="">
+                  </div>
+                  <div class="modal-body">
+                    <p>Uwielbiam odkrywać i podróżować, z plecakiem, na stopa, albo wygodnie rozsiąść się w samolocie.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Powrót</button>
+                  </div>
+                </div>      
+              </div>
+            </div>
+          </div>
+      
+          <div class="col-lg-3 col-md-6 portfolio-item filter-love filter-en filter-hr">
+              <a data-toggle="modal" data-backdrop="true" data-target="#podrozeModal">
+                <img src="img/portfolio/camper.jpg" alt="">
+                <div class="details">
+                    <h4>Podróże</h4>
+                </div>    
+              </a>
           </div>
 
-          <div class="col-lg-3 col-md-6 portfolio-item filter-web">
-            <a href="">
-              <img src="img/portfolio/web3.jpg" alt="">
-              <div class="details">
-                <h4>Web 3</h4>
-                <span>Alored dono par</span>
+          <!-- 7 - Szok kulturowy  -->
+          <div id="szokModal" class="modal fade" role="dialog">
+            <div class="vertical-alignment-helper">
+              <div class="modal-dialog modal-dialog-centered vertical-align-center">
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <img src="img/portfolio/shredded-paper.jpg" alt="">
+                  </div>
+                  <div class="modal-body">
+                    <p>Miałam okazję chodzić do francuskiego liceum, które nauczyło mnie dużo dużo więcej niż opis akcji Wesela Figara i muszę przyznać, że nie trzeba lecieć do Indonezji, żeby doznać szoku kulturowego.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Powrót</button>
+                  </div>
+                </div>      
               </div>
-            </a>
+            </div>
+          </div>
+      
+          <div class="col-lg-3 col-md-6 portfolio-item filter-edu filter-fr">
+              <a data-toggle="modal" data-backdrop="true" data-target="#szokModal">
+                <img src="img/portfolio/shredded-paper.jpg" alt="">
+                <div class="details">
+                    <h4>Szok kulturowy</h4>
+                </div>    
+              </a>
           </div>
 
-          <div class="col-lg-3 col-md-6 portfolio-item filter-card">
-            <a href="">
-              <img src="img/portfolio/card3.jpg" alt="">
-              <div class="details">
-                <h4>Card 3</h4>
-                <span>Alored dono par</span>
+          <!-- 8 - Smaki  -->
+          <div id="kuchniaModal" class="modal fade" role="dialog">
+            <div class="vertical-alignment-helper">
+              <div class="modal-dialog modal-dialog-centered vertical-align-center">
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <img src="img/portfolio/leaf.jpg" alt="">
+                  </div>
+                  <div class="modal-body">
+                    <p>Uwielbiam odkrywać nowe smaki i kuchnie, nie zawsze jest to proste. Spróbujcie zjeść coś wegetariańskiego w Las Vegas…
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Powrót</button>
+                  </div>
+                </div>      
               </div>
-            </a>
+            </div>
+          </div>
+      
+          <div class="col-lg-3 col-md-6 portfolio-item filter-love filter-en">
+              <a data-toggle="modal" data-backdrop="true" data-target="#kuchniaModal">
+                <img src="img/portfolio/leaf.jpg" alt="">
+                <div class="details">
+                    <h4>Smaki</h4>
+                </div>    
+              </a>
           </div>
 
-          <div class="col-lg-3 col-md-6 portfolio-item filter-app">
-            <a href="">
-              <img src="img/portfolio/app2.jpg" alt="">
-              <div class="details">
-                <h4>App 2</h4>
-                <span>Alored dono par</span>
+          <!-- 9 - Nauczyciel  -->
+          <div id="nauczycielModal" class="modal fade" role="dialog">
+            <div class="vertical-alignment-helper">
+              <div class="modal-dialog modal-dialog-centered vertical-align-center">
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <img src="img/portfolio/learning.jpg" alt="">
+                  </div>
+                  <div class="modal-body">
+                    <p>Uczyłam młodzież i dorosłych w szkołach w Polsce, Francji i Serbii, mogę o tym opowiadać godzinami.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Powrót</button>
+                  </div>
+                </div>      
               </div>
-            </a>
+            </div>
+          </div>
+      
+          <div class="col-lg-3 col-md-6 portfolio-item filter-exp filter-en filter-fr filter-hr">
+              <a data-toggle="modal" data-backdrop="true" data-target="#nauczycielModal">
+                <img src="img/portfolio/learning.jpg" alt="">
+                <div class="details">
+                    <h4>Nauczyciel</h4>
+                </div>    
+              </a>
           </div>
 
-          <div class="col-lg-3 col-md-6 portfolio-item filter-logo">
-            <a href="">
-              <img src="img/portfolio/logo1.jpg" alt="">
-              <div class="details">
-                <h4>Logo 1</h4>
-                <span>Alored dono par</span>
+          <!-- 10 - Praca  -->
+          <div id="pracaModal" class="modal fade" role="dialog">
+            <div class="vertical-alignment-helper">
+              <div class="modal-dialog modal-dialog-centered vertical-align-center">
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <img src="img/portfolio/laptop.jpg" alt="">
+                  </div>
+                  <div class="modal-body">
+                    <p>Pracowałam zawodowo w Wielkiej Brytanii, Francji, Chorwacji, Serbii i Polsce. Powiedzmy, że elastyczność do moja mocna strona.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Powrót</button>
+                  </div>
+                </div>      
               </div>
-            </a>
+            </div>
+          </div>
+      
+          <div class="col-lg-3 col-md-6 portfolio-item filter-exp filter-en filter-fr filter-hr">
+              <a data-toggle="modal" data-backdrop="true" data-target="#pracaModal">
+                <img src="img/portfolio/laptop.jpg" alt="">
+                <div class="details">
+                    <h4>Praca</h4>
+                </div>    
+              </a>
           </div>
 
-          <div class="col-lg-3 col-md-6 portfolio-item filter-logo">
-            <a href="">
-              <img src="img/portfolio/logo3.jpg" alt="">
-              <div class="details">
-                <h4>Logo 3</h4>
-                <span>Alored dono par</span>
+          <!-- 11 - Ludzie  -->
+          <div id="ludzieModal" class="modal fade" role="dialog">
+            <div class="vertical-alignment-helper">
+              <div class="modal-dialog modal-dialog-centered vertical-align-center">
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <img src="img/portfolio/team.jpg" alt="">
+                  </div>
+                  <div class="modal-body">
+                    <p>Zdarzyło mi się pracować z Kanadyjczykami, Francuzami, Chorwatami, Amerykanami i ludźmi ze wszystkich kontynentów. Moimi ulubionymi współpracownikami byli zdecydowanie Jamajczycy.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Powrót</button>
+                  </div>
+                </div>      
               </div>
-            </a>
+            </div>
+          </div>
+      
+          <div class="col-lg-3 col-md-6 portfolio-item filter-exp filter-en filter-fr filter-hr">
+              <a data-toggle="modal" data-backdrop="true" data-target="#ludzieModal">
+                <img src="img/portfolio/team.jpg" alt="">
+                <div class="details">
+                    <h4>Ludzie</h4>
+                </div>    
+              </a>
           </div>
 
-          <div class="col-lg-3 col-md-6 portfolio-item filter-web">
-            <a href="">
-              <img src="img/portfolio/web1.jpg" alt="">
-              <div class="details">
-                <h4>Web 1</h4>
-                <span>Alored dono par</span>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-lg-3 col-md-6 portfolio-item filter-logo">
-            <a href="">
-              <img src="img/portfolio/logo2.jpg" alt="">
-              <div class="details">
-                <h4>Logo 2</h4>
-                <span>Alored dono par</span>
-              </div>
-            </a>
-          </div>
 
         </div>
 
