@@ -132,6 +132,9 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
 }
 
+#header #logo img {
+  margin-top: -10px;
+}
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -263,8 +266,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Nav Meu Container */
 #nav-menu-container {
-  float: right;
-  margin: 0;
+  float: left;
+  margin: 0; 
 }
 
 @media (max-width: 768px) {
@@ -952,3 +955,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 13px;
   color: #ccc;
 }
+
+/*--------------------
+# Modal fix for Safari
+---------------------*/
+@media not all and (min-resolution:.001dpcm)
+{ @supports (-webkit-appearance:none) and (stroke-color:transparent) {
+
+  .modal-backdrop {
+    z-index: -1;
+  }
+}}
